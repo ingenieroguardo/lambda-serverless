@@ -3,7 +3,7 @@ import os
 from boto3.dynamodb.conditions import Key
 
 # Hola a todos companeros estoy editando el codigo porque soy developer 
-
+# Probando cambios en Lambda 
 DYNAMO_BD = os.environ['DYNAMO_BD']
 
 class DynamoAccessor:
